@@ -1,14 +1,17 @@
-# Prompt 11 — Adversarial theorem novelty gate (2026-10-20)
-| Claim | Adversarial evidence | Result |
+# FINAL NOVELTY MATRIX — Prompt 12 (2026-10-20)
+| Candidate | Closest evidence | Final verdict |
 |---|---|---|
-| H10.1 combined sensing/edit/certificate objective is inherently new | A11.1 finite-history POMDP reduction; E029/E050/E052 | NO-GO as formulated; no new separation |
-| H10.2 proof requirement can change sensor choice | A11.2 two-sensor exact cost reversal | Existence TRUE, but trivial effective-cost reweighting; NOVELTY NO-GO |
-| H10.3 robust physical certification yields a new information bound | A11.3 observational equivalence; A11.4 universal edit | NO-GO as broad claim |
-| Adaptive advantage from threshold queries | P10.3 | Classical binary search, not novel |
-| Encoded-instance certificate implies hidden physical truth | P10.2 | FALSE without trusted observation/robust semantics |
-| Proof costs automatically create new complexity | P10.4, A11.2 | FALSE |
-| Broad information-dependent network creation | E023,E029,E038,E039,E050 | Established overlapping prior art |
-| Independent planning optimality certificates | E052,E056 | Established |
-| Fixed-proof-system asymptotic separation | No explicit family, lower bound or matched upper bound | UNPROVED, no publication gate |
+| New sensing-aware network optimization paradigm | E023,E029,E050 | NO-GO |
+| New stochastic structural repair with sensing | E038,E039 | NO-GO |
+| New independently checked optimization/planning certificates | E041–E044,E052,E056 | NO-GO |
+| Adaptive threshold query advantage | P10.3 | Classical; no novelty |
+| Universal value-of-information submodularity | E019, XOR counterexample | False |
+| Encoded-instance proof implies physical truth | P10.2,A11.3 | False |
+| H10.1 new joint sensing/edit/certificate separation | A11.1, E029,E050,E052 | Unproved; NO-GO as formulated |
+| H10.2 certificate cost changes sensing choice | A11.2 | Trivial existential; NO-GO novelty |
+| H10.3 new robust sensing lower bound | A11.3,A11.4 | Unproved; NO-GO as formulated |
+| Pivot A natural certificate-sensitive sensing | Final audit section 7 | Open research question, NOT novel claim |
+| Pivot B attested physical repair lower bounds | Final audit section 7 | Open research question, NOT novel claim |
+| Pivot C policy/proof succinctness separation | Final audit section 7 | Open research question, NOT novel claim |
 
-**FINAL PROMPT 11 DECISION: NO-GO for manuscript or original theorem claims.** Only exploratory narrowly restricted formal research remains possible. E040 stays quarantined; bibliography not universally theorem-verified.
+**Programme status:** 12/12 research stages completed. 55 unique evidence IDs; 54 provisional retained and 1 quarantined (E040). 55 unique BibTeX keys including quarantine entry. No new theorem, implementation, experiments, or manuscript. Do not submit.
