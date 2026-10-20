@@ -15,3 +15,6 @@
 | Pivot C policy/proof succinctness separation | Final audit section 7 | Open research question, NOT novel claim |
 
 **Programme status:** 12/12 research stages completed. 55 unique evidence IDs; 54 provisional retained and 1 quarantined (E040). 55 unique BibTeX keys including quarantine entry. No new theorem, implementation, experiments, or manuscript. Do not submit.
+
+## Prompt 13 continuation: attested physical repair
+E057 (2021) probabilistic fault-probe selection, E058 (2019) progressive uncertain network recovery, and E059 (2015) monitor placement/identifiability directly reject novelty claims about these ingredients. No new theorem. Conditional GO for restricted problem definition at Prompt 14 only; manuscript NO-GO. Source inspection limited to publisher/institutional abstracts.
