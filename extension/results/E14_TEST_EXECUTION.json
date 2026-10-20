@@ -1,0 +1,32 @@
+{
+  "stage": "E14",
+  "status": "EXECUTED_VERIFIED_LOCAL",
+  "date": "2026-10-20",
+  "python": "3.13.5",
+  "os": "Linux x86_64",
+  "command": "python -m unittest discover -s /mnt/data/e10work/extension/tests -p test_*.py -v",
+  "methods": {
+    "E09": 12,
+    "E10": 8,
+    "E11": 7,
+    "E12": 4,
+    "total": 31
+  },
+  "result": {
+    "run": 31,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 0.037
+  },
+  "source_verification": "Eight Python files matched GitHub Git blob SHA-1 prior to execution",
+  "code_shas": {
+    "extension/src/physical_graph.py": "e26f6e758ce22f162fb4afd0935f94601a3ba826",
+    "extension/src/exact_oracle.py": "c05554db9da8c975dddf41a28dff6edcdf374a3b",
+    "extension/src/independent_checker.py": "cdf046a3162416f52d48efed50b78308e5771741",
+    "extension/src/baselines.py": "0e0010e66f1a97225c8ffe3a324b60c6d97ec93a",
+    "extension/tests/test_physical_graph.py": "b0f4bfe5cdd46aea4a8ede97b4514e3f900145f3",
+    "extension/tests/test_exact_oracle.py": "27a9c8d532616c3367d74a7f0d43ff73d36202ed",
+    "extension/tests/test_baselines.py": "966b9f7335612e61f2a53ffd8c0efcca81967b0e",
+    "extension/tests/test_e12_candidate_gate.py": "86f63fa8cdfaa0477f5b043cf993e23bedafd5e1"
+  }
+}
