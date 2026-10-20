@@ -2,13 +2,13 @@
 Date: 2026-10-20
 
 ## Evidence additions
-E027-E033 (seven new records, 33 total). Publisher primary abstracts: E027-E029; preprint abstract E030; archival bibliographic metadata E031; article excerpt E032; publisher metadata/bibliography E033. Existing E002 (Golovin-Krause) and E019 (Krause-Guestrin) revisited. This is a targeted prior-art audit, not exhaustive full-text theorem verification.
+E027-E031 and E033 (six new unique records, 32 total). Publisher primary abstracts: E027-E029; preprint abstract E030; archival bibliographic metadata E031; article excerpt E019 (previously registered); publisher metadata/bibliography E033. Existing E002 (Golovin-Krause) and E019 (Krause-Guestrin) revisited. An initially proposed E032 was identified as a duplicate of E019 and removed before final verification. This is a targeted prior-art audit, not exhaustive full-text theorem verification.
 
 ## Major finding
 Singla (2018), E029, studies paying to learn uncertain edge costs before constructing a spanning tree. This invalidates broad claims that paid sensing followed by network construction is new. Gupta-Nagarajan-Singla (2016/2017), E027-E028, prove adaptivity gap results for constrained stochastic probing. Asadpour-Nazerzadeh E030 gives bounded adaptivity gaps for a different stochastic submodular class. Adaptive submodularity E002 guarantees greedy policies only under its hypotheses.
 
 ## Negative results and counterexample
-Krause-Guestrin E032 explicitly shows decision-theoretic value of information need not be submodular. Independent-bit XOR example: knowing one bit has no decision benefit, but knowing both completely resolves the target. This exhibits complementarity and invalidates an unrestricted diminishing-returns theorem.
+Krause-Guestrin E019 explicitly shows decision-theoretic value of information need not be submodular. Independent-bit XOR example: knowing one bit has no decision benefit, but knowing both completely resolves the target. This exhibits complementarity and invalidates an unrestricted diminishing-returns theorem.
 
 ## Lower-bound evidence
 Wald E031 provides foundational sequential testing; no new sequential testing claim justified. Fano and Le Cam bounds were identified as relevant but not added as fully verified primary entries because this pass did not establish primary bibliographic records and exact applicable theorem statements. Do not treat a survey as an original theorem source.
