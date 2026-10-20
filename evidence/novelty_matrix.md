@@ -36,3 +36,6 @@ F18.1 corrects repair-before-probe ambiguity: with one irrevocable repair and tw
 
 ## Prompt 19 — independent cumulative evidence audit
 Reconciled E064 BibTeX inspection note with publisher full-text selected inspection. E065 PMLR three-author record and conference/journal linkage verified; no duplicate. E059–E063 full proofs remain unaudited; E040 quarantined and earlier metadata gaps unresolved. No new independent sources (64 unique IDs/64 keys). Prior claims of novelty for decision-sufficient sensing, overlapping repair regions, attestation overhead and asymmetric costs remain unsupported. **NO-GO for original-theorem manuscript**. See evidence/PROMPT_19_EVIDENCE_INTEGRITY.md.
+
+## Prompt 20 — FINAL PROGRAMME CLOSURE
+20/20 prompts complete. NO-GO original theorem, minimax/complexity separation and manuscript. E064 proceedings pages/URL corrected; no new independent references. 64 unique registry IDs, 64 unique BibTeX keys, E040 quarantined, other metadata and proof audit gaps remain. Work-level publication versions deduplicated in evidence/FINAL_CLOSURE_PROMPT_20.md. Internal negative-results archive ready; review/perspective/methods not submission-ready. STOP pending author decision.
