@@ -33,3 +33,6 @@ E064 NeurIPS full paper defines equivalence-class determination and decision-tar
 
 ## Prompt 18 — forensic negative-results gate
 F18.1 corrects repair-before-probe ambiguity: with one irrevocable repair and two indistinguishable series-edge failures, the wrong first repair exhausts budget; with two repairs, universal repair is possible. F18.2 action-region overlap is standard terminal feasibility; F18.3 local edge tests are not end-to-end probes; F18.4 asymmetric costs are ordinary cost-sensitive planning. E064 Theorem 1/Proposition 2/Theorem 3 and Section 4 read from primary PDF; E065 ECED journal version DOI 10.1214/17-EJS1336SI deduplicated. NO-GO for original theorem. Zero new distinct evidence IDs.
+
+## Prompt 19 — independent cumulative evidence audit
+Reconciled E064 BibTeX inspection note with publisher full-text selected inspection. E065 PMLR three-author record and conference/journal linkage verified; no duplicate. E059–E063 full proofs remain unaudited; E040 quarantined and earlier metadata gaps unresolved. No new independent sources (64 unique IDs/64 keys). Prior claims of novelty for decision-sufficient sensing, overlapping repair regions, attestation overhead and asymmetric costs remain unsupported. **NO-GO for original-theorem manuscript**. See evidence/PROMPT_19_EVIDENCE_INTEGRITY.md.
