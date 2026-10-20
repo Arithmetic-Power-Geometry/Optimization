@@ -8,3 +8,6 @@ See FORMAL_MODEL_PROMPT_10.md. H10.1-H10.3 are unproved falsifiable conjectures.
 
 ## Prompt 11 final gate
 See theory/ADVERSARIAL_GATE_PROMPT_11.md. H10.1 NO-GO as formulated, H10.2 trivial existential cost reversal but novelty NO-GO, H10.3 general novelty NO-GO. No new theorem established. Do not draft a paper without a new explicit restricted-family separation.
+
+## Prompt 12 closure
+**NO-GO** for original-theorem/manuscript claims under H10.1-H10.3. Three explicitly unproved pivots A–C are documented in evidence/FINAL_RESEARCH_AUDIT.md. Programme closed; further work requires separate authorization.
