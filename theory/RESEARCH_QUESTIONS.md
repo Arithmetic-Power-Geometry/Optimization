@@ -23,3 +23,6 @@ Q14 broad originality NO-GO after C15.1–C15.6. Narrow candidate: action-suffic
 
 ## Prompt 16
 Action-sufficient repair stopping condition: version-space support contained in at least one repair-valid region R_tau. Elementary; not novel. Toy one-bit upper bound assumes local edge test, not end-to-end tomography. Strict Prompt 17 gate must test overlapping regions and asymmetric repair costs with feasible end-to-end paths.
+
+## Prompt 17 strict gate
+Original-theorem research status NO-GO. Path-only probing makes two series-edge failures observationally indistinguishable absent intervening repairs; overlapping repair regions do not alone establish novelty over decision-region frameworks; asymmetric repair costs reduce to finite belief-state planning. See theory/PROOF_GATE_PROMPT_17.md.
