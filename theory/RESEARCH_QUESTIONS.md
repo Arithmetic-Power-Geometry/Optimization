@@ -20,3 +20,6 @@ Q14 provisional attested repair minimax question and formal definitions in theor
 
 ## Prompt 15
 Q14 broad originality NO-GO after C15.1–C15.6. Narrow candidate: action-sufficient robust repair where exact failure identification is unnecessary, no universal repair exists, and a genuine lower bound survives standard active diagnosis/POMDP/DDID comparisons. Unproved; see theory/ADVERSARIAL_TESTS_PROMPT_15.md.
+
+## Prompt 16
+Action-sufficient repair stopping condition: version-space support contained in at least one repair-valid region R_tau. Elementary; not novel. Toy one-bit upper bound assumes local edge test, not end-to-end tomography. Strict Prompt 17 gate must test overlapping regions and asymmetric repair costs with feasible end-to-end paths.
