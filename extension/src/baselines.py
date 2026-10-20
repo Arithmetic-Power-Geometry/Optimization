@@ -39,7 +39,11 @@ def evaluate(problem: Problem, name: str, weights: tuple[Fraction, ...] | None =
         # items are (hypothesis id, physical state) but action scoring only
         # uses the public belief, common admissibility, and simulated
         # candidate consequences; no hidden state is selected as truth.
-        if not items or remaining <= 0:
+        if not items:
+            return
+        if remaining <= 0:
+            for i, s in items:
+                success[i] = service(s, problem.demands)
             return
         if all(service(s, problem.demands) for _, s in items):
             for i, _ in items:
