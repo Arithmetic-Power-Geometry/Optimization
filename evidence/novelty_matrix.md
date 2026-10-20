@@ -21,3 +21,6 @@ E057 (2021) probabilistic fault-probe selection, E058 (2019) progressive uncerta
 
 ## Prompt 14 — provisional model freeze
 E060 author preprint gives polynomially testable failure-identifiability conditions under three probing models; E061 and E062 are proof companions, not independent studies. These defeat broad path-tomography novelty. Attested repair Q14 is a **provisional falsifiable question only**, not a novel theorem; authentication of provenance is not physical correctness. NO-GO manuscript, conditional adversarial test at Prompt 15. See evidence/PROMPT_14_REPORT.md.
+
+## Prompt 15 — adversarial falsification
+C15.1 universal repair => zero sensing; C15.2 repair without exact fault identification; C15.3 signature authenticates source, not truth; C15.4 fixed attestation cost collapses to priced POMDP; C15.5 comparator must retain outcome-dependent repair; C15.6 common-repair relation need not be transitive. E060 corrected to published 2017 IEEE/ACM ToN (preprint 2015), E063 added as technical proof companion. Q14 broad novelty NO-GO; conditional narrow action-sufficiency test only. See evidence/PROMPT_15_REPORT.md.
