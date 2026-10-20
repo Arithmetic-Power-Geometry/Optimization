@@ -1,20 +1,25 @@
-# Novelty matrix — Prompt 04 (2026-10-20)
-| Claim | Closest prior art | Assessment | Evidence |
+# Novelty matrix — Prompt 05 (2026-10-20)
+
+| Candidate | Prior art | Verdict | Evidence |
 |---|---|---|---|
-| Intermittent scent search | Infotaxis | Established | E001 |
-| Adaptive sensing guarantees | Adaptive submodularity | Established with conditions | E002 |
-| Structural design and reformulation | Network design, Dantzig-Wolfe, Benders, autoformulation | Established | E003-E010 |
-| Biological bilateral sampling and plume tracking | Canine and robot studies | Established | E011-E016 |
-| Hidden-state Bayesian policy optimization | Smallwood-Sondik; Kaelbling et al. | Established | E017,E018 |
-| Optimal conditional sensing and information value | Krause-Guestrin; knowledge gradient | Established | E019,E020 |
-| Decisions determine when information becomes available | Jonsbraten et al.; Goel-Grossmann | Established | E021,E022 |
-| Joint sensor placement and routing | Paradiso et al.; Zhou-List | **Direct counterexample to broad joint-sensing/design novelty** | E023,E026 |
-| Multistage exploratory investments before adaptive decisions | Vayanos et al. | Established | E024 |
-| Decisions change probability distributions | Pantuso-Hewitt | Established | E025 |
-| Independently certified *new structural model* chosen under information restrictions | POMDPs, endogenous information, verification still to audit | Unverified; narrow candidate | E017-E025 |
-| Novel matched sensing/creation/certificate complexity lower bound | Information complexity, formal proof systems still to audit | Unproved hypothesis | pending |
+| Canine olfaction, intermittency and Bayesian plume tracking | Infotaxis, robotics | Established | E001,E011-E016 |
+| Column generation, model reformulation and network design | Classical optimization | Established | E003-E010 |
+| Partial-observation policy optimization | POMDPs | Established | E017-E018 |
+| Decision-dependent information discovery and sensing-aware routing | Stochastic/robust optimization | Established; direct overlap | E021-E026 |
+| Adaptive greedy sensing guarantee | Adaptive submodularity | Established under assumptions | E002 |
+| Stochastic probing with inner/outer constraints | Gupta et al. | Established | E027 |
+| Adaptive/nonadaptive gaps for submodular/XOS probing | Gupta et al.; Asadpour-Nazerzadeh | Established under assumptions | E028,E030 |
+| Paying to sense edge costs before network construction | Singla | **Direct contradiction of broad novelty** | E029 |
+| Sequential tests with error constraints | Wald | Established | E031 |
+| Universal submodularity of decision value of information | Krause-Guestrin | **False generally** | E032 |
+| Increasing precision of stochastic probing | Hoefer et al. | Established; detailed comparison pending | E033 |
+| Joint sensing/creation/proof cost under independent validity certificates | Adjacent probing and formal verification | **Unverified hypothesis** | E029; Prompt 07 |
+| New information-certificate complexity separation | Existing information theory and proof complexity | **Unproved; may reduce to prior art** | pending |
 
-## Contradictory evidence and limitations
-E023 explicitly cooptimizes sensor placement and routing, invalidating an unqualified novelty claim for sensing-aware network decisions. E024 and E022 already model costly information revelation controlled by decisions. E019 proves severe computational hardness for value of information, so efficiency cannot be assumed. E025 shows existing exact decomposition for decision-dependent distributions. POMDPs (E017,E018) can encode finite sensory-creation policies by augmenting states and actions; an expressiveness-only novelty claim fails.
+## Contradictions and counterexamples
+E029 already models priced information acquisition and combinatorial network construction, so any novelty claim based only on sensing+creation cost is rejected. E032 establishes that decision-theoretic information value need not be submodular, so a general adaptive-greedy theorem is untenable. E027-E030 bound adaptivity gaps for specified families; unrestricted adaptive superiority cannot be claimed.
 
-The candidate must state a specific transformation language, certificate relation, information restrictions, and cost model; test for reduction to existing stochastic/robust formulations. No theorem established, no novelty percentage warranted. Literature inspection mainly abstracts and one article section; not a comprehensive systematic review.
+Simple self-contained counterexample to submodularity: let two independent fair bits X1,X2 be observed at no cost, and reward 1 only if a final action guesses XOR(X1,X2) correctly. Baseline optimal success=1/2; observing either bit alone leaves optimal success=1/2; observing both gives 1. Thus marginal benefit of observing X2 rises from 0 (without X1) to 1/2 (with X1), violating diminishing returns. This is an illustrative derivation, not a new theorem.
+
+## Outstanding research
+The information-theoretic lower-bound literature (Fano, Le Cam, sequential design), formal certificates and certificate complexity need full primary-source verification in subsequent prompts. E032 is already listed as E019 under related value-of-information work but is a separate publication from E019; ensure exact title/DOI reconciliation at Prompt 09. E033 journal metadata is provisional. No novel theorem proven.
