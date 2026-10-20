@@ -1,0 +1,2 @@
+# Execute Prompt 05
+Deep-mine primary adaptive submodularity, stochastic probing, value-of-information non-submodularity, adaptive vs nonadaptive gaps, sequential hypothesis testing, Fano/Le Cam information bounds and certificate-related information lower bounds. Test whether claimed sensing-creation advantages follow from established theorems; identify counterexamples and strict conditions. Append verified registry/BibTeX and update novelty matrix and progress. Commit and independently fetch files. STOP and ask permission for Prompt 06. No code or manuscript.
