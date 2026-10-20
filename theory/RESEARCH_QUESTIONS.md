@@ -11,3 +11,6 @@ See theory/ADVERSARIAL_GATE_PROMPT_11.md. H10.1 NO-GO as formulated, H10.2 trivi
 
 ## Prompt 12 closure
 **NO-GO** for original-theorem/manuscript claims under H10.1-H10.3. Three explicitly unproved pivots A–C are documented in evidence/FINAL_RESEARCH_AUDIT.md. Programme closed; further work requires separate authorization.
+
+## Prompt 13 continuation — attested physical repair
+Candidate: tight minimax information/repair/certificate bound for physical graph failures under explicitly trusted observations, with matched POMDP/DDID/tomography baselines. Unproved; see evidence/PROMPT_13_REPORT.md. The original broad paradigm remains NO-GO.
