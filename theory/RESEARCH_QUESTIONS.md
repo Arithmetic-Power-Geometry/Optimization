@@ -32,3 +32,6 @@ No original theorem after forensic review. End-to-end series-path failures remai
 
 ## Prompt 19 cumulative audit
 No new theorem or publishable minimax separation; action-sufficient repair, overlapping regions and attestation costs remain covered by or reducible to existing decision-theoretic formulations absent a new restricted theorem. Evidence-integrity blockers documented in evidence/PROMPT_19_EVIDENCE_INTEGRITY.md. NO-GO original theorem.
+
+## Prompt 20 — CLOSED
+All candidate broad novelty claims rejected or unproved after 20 prompts. No original theorem or submission-ready research output. See evidence/FINAL_CLOSURE_PROMPT_20.md. New directions require explicit author authorization and a separate originality gate.
