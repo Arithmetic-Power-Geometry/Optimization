@@ -1,19 +1,26 @@
-# Novelty matrix — Prompt 06 (2026-10-20)
-| Candidate claim | Closest prior art | Verdict | Evidence |
+# Novelty matrix — Prompt 07 (2026-10-20)
+| Claim | Prior art | Status | IDs |
 |---|---|---|---|
-| Adding variables or structural design choices | Dantzig-Wolfe, Benders, extended formulations | Established | E004-E008 |
-| Bayesian sensing and endogenous information | POMDPs and decision-dependent information | Established | E017-E025 |
-| Priced probing before building a spanning tree | Singla | Direct overlap | E029 |
-| Survivable network construction with approximation guarantee | Jain | Established | E034 |
-| Two-stage stochastic network construction | Dhamdhere et al. | Established | E035 |
-| Bilevel adversarial network structural decisions | Wood; Cormican et al. | Established | E036,E037 |
-| Repair by adding/removing graph vertices after stochastic change | Rysz et al. | **Direct contradiction to broad possibility-creation novelty** | E038 |
-| Repair decisions reveal damage information progressively | Tootaghaj et al. | **Direct contradiction to broad sensing-repair novelty** | E039 |
-| Formal network fault-tolerance verification | Origami | Established adjacent work | E040 |
-| Novel certificate-aware information/creation cost theorem | Stochastic repair, probing and formal verification | **Unverified; requires precise theorem and Prompt 07** | E029,E038-E040 |
+| Adaptive scent and belief-state search | Infotaxis, POMDPs | Established | E001,E017-E018 |
+| Priced information before network construction | Stochastic probing, price of information | Established | E027-E029 |
+| Network repair and progressive information collection | Stochastic network repair | Established | E038-E039 |
+| Independent SAT proof checking | DRAT-trim | Established | E041 |
+| Independently checkable MIP optimization certificates | VIPR | Established | E042 |
+| Practically feasible PB optimization proof logging | VeriPB/CakePB | Established | E043 |
+| Proof length/verification complexity as mathematical resource | Cook-Reckhow | Established | E044 |
+| Static formal network safety checks | Header Space Analysis; NetKAT | Established | E045,E048 |
+| Algebraic mixed-integer infeasibility witnesses | Andersen et al. | Established | E046 |
+| More expressive certificate systems for SDP | Klep-Schweighofer | Established | E047 |
+| Formally specified MILP certificate checker | SMT VIPR checker | Established | E049 |
+| Joint sensing, structural creation, and **proof-system-specific** minimum certificate cost | Strong adjacent prior art | **Unverified candidate; no theorem** | E029,E038-E049 |
 
 ## Contradictions
-Network design, repair, and verification are all established individually. E038 already modifies graph structure after stochastic changes. E039 already interleaves repair and information gathering. The addition of formal validity checks does not itself establish novelty; simple connectivity and edge-connectivity are efficiently checkable. No universal superiority or asymptotic advantage can be inferred from these sources.
+- A certificate for a proposed graph's connectivity can be just a path or spanning tree; independent verification is not new.
+- A SAT/ILP proof log can already certify feasibility or optimality in suitable encodings (E041-E043,E046,E049). Adding a verifier to a sensing policy does not constitute novelty.
+- Proof length depends on the proof system and encoding (E044). No representation-independent certificate lower bound may be inferred.
+- Bayesian posterior confidence in hidden theta is not a formal witness that a property holds in the true hidden theta.
+- LP Farkas-style infeasibility certificates do not transfer without conditions to semidefinite settings (E047).
+- Checking a network property after change (E045,E048) does not necessarily certify the entire stochastic decision process.
 
-## Quality gate
-Seven additions, publisher/institutional abstract/excerpt inspection; unresolved E038-E040 metadata flagged. No proof or experiment. The next stage must challenge even the narrowed certificate-aware claim.
+## Remaining narrow question
+Formalize V(x,tau,w)=1 and distinguish (i) certificate of correctness for the **observed/encoded instance**, (ii) certificate for **all theta in an uncertainty set**, and (iii) probabilistic reliability. Seek a matched lower/upper bound on total observation, transformation, witness generation and checking cost. The candidate may collapse to standard stochastic optimization with proof logging; adversarial reductions required.
