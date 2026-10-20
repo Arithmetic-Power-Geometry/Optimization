@@ -72,8 +72,9 @@ def evaluate(problem: Problem, name: str, weights: tuple[Fraction, ...] | None =
                 sig = []
                 for i, s in group:
                     possible = frozenset(a for a in problem.repairs
-                        if a in {e.name for e in s.edges} and service(restore(s, a), problem.demands)
-                        and s.budget.repairs and s.budget.time)
+                        if a in {e.name for e in s.edges} and a not in s.repaired
+                        and s.budget.repairs and s.budget.time
+                        and service(restore(s, a), problem.demands))
                     sig.append((i, possible))
                 return sig
             def conflict(group):
