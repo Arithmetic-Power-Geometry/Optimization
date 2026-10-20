@@ -1,0 +1,31 @@
+# E07 — Budget, costs and guarantees: analytical certificates
+Date 2026-10-20. Status: elementary analytic results; NO new original theorem claimed.
+
+## Model and cost conventions
+Use E04 v1.0: nonnegative repair costs c_R(a), probe costs c_P(p), time costs c_T, resource vector b=(B_R,B_P,B_T). Each attempted action debits exactly once, including failed repair and inconclusive probe. The robust objective demands service in every feasible hidden state and for every allowed adverse repair outcome. The Bayesian objective specifies a prior, noise kernel and success threshold alpha. These objectives are not interchangeable.
+
+## Certificate E07.C1 — deterministic universal-restoration upper bound
+Suppose a known finite candidate failure set F={e_1,...,e_k} contains every possibly failed service edge. Each restoration a_i is always admissible, guaranteed to restore e_i if failed, never damages another component, and can be applied at most once. If restoring all edges in F guarantees the service predicate and sum_i c_R(a_i)<=B_R and total durations fit B_T, a zero-probe robust policy exists. Proof: execute each a_i and stop; every possible failed edge is operational. This is a sufficient condition, not necessary, and no general positive value-of-information theorem survives without excluding it.
+
+## Certificate E07.C2 — indistinguishable states and repair-cover lower bound
+Let H0 subset of hidden states be pairwise observationally indistinguishable under every permitted pre-repair probe, including adaptive sequences, with deterministic outcomes. Suppose any successful repair-only plan P corresponds to a subset of restoration actions, with total repair cost c_R(P), and define Cov(P)={theta in H0: P restores service in theta}. Then robust sensing-first feasibility requires a plan P with H0 subseteq Cov(P) and c_R(P)<=B_R (plus time constraints). Proof: all states in H0 produce the same transcript, so the policy must select the same plan; that plan must succeed in every state. This does not automatically lower-bound an interleaving policy, which may acquire additional observations after an edit.
+
+For the E06 two-service-edge gate example, H0={L,R}; P={a_L,a_R} covers H0 with cost 2. Hence B_R>=2 makes sensing-first robustly feasible without probing; B_R<2 prevents this plan, but the E06 interleaving plan a_g then a_L/a_R also costs 2. Thus **no strict robust feasibility separation** follows for any B_R under unit costs.
+
+## Certificate E07.C3 — exact deterministic cover optimization (restricted subcase)
+For candidate state family H0 and a collection of guaranteed restoration actions A, each action a covers a set C_a subset H0 of states whose failures it remedies, assume service succeeds after a plan P iff every state theta in H0 has its required failed component restored by P, and repairs commute and never cause harm. A common plan cost is min_{P subseteq A: H0 subseteq union_{a in P} C_a} sum_{a in P} c_R(a), i.e. weighted set cover. **Important:** this equivalence requires the stated union-of-coverage success semantics; it is not valid for arbitrary network connectivity predicates, interacting repairs or nonmonotone actions. Weighted set cover hardness and approximability are classical, so this reduction is NOT an original complexity result.
+
+## Certificate E07.C4 — Bayesian indistinguishability ceiling
+If all permitted observations have the same likelihood under two states L,R, no observation sequence changes their posterior odds. With prior P(L)=pi, P(R)=1-pi and exactly one final repair that succeeds in precisely its matching state, maximum attainable success probability is max(pi,1-pi), irrespective of the number of such tests. Proof: Bayes factors equal 1, so posterior remains prior and the optimal final decision chooses the more probable repair. If pi=1/2, maximum success is 1/2. This statement assumes no intermediate repair feedback, no repair affecting future observations, and no universal repair. Noisy but *informative* probes do not satisfy equal-likelihood condition.
+
+## Certificate E07.C5 — a simple noisy test and success threshold
+Two equally likely states L,R. One admissible binary test Y has symmetric independent error epsilon in [0,1/2], so P(Y=L|L)=P(Y=R|R)=1-epsilon. With exactly one test, no intermediate repairs, and a matching one-action final repair, maximum Bayes success is 1-epsilon. Without testing it is 1/2. Thus a chance constraint alpha>1-epsilon is infeasible with at most one test and one matching repair; alpha<=1/2 is feasible without testing. The intermediate alpha interval (1/2,1-epsilon] is achievable if the test and repair fit all budgets. Proof: MAP selects the observed label; error probability epsilon. This is elementary binary hypothesis testing, not new theory. If alpha=1 and epsilon>0, one noisy test does not give robust certainty.
+
+## Certificate E07.C6 — worst-case and chance guarantees are different
+For the same noisy binary test with epsilon>0 and two disjoint matching repairs, no one-test, one-repair policy can guarantee success in every hidden state and every possible observation, since either output can arise in either state. Nonetheless its Bayes success is 1-epsilon. Any claimed robust guarantee based only on high posterior confidence is invalid.
+
+## Counterexamples to broad claims
+(1) Universal affordable repair => zero probes. (2) Two-unit E06 budget => brute-force service repair defeats proposed separation. (3) If enabling access costs > remaining budget after required service repair, the enabling strategy is infeasible. (4) If a repair can fail adversarially, a guaranteed-success claim needs additional redundancy or feedback. (5) Negative cost, free terminal action, or double-counted repairs invalidate comparisons. (6) Heterogeneous costs can reverse an optimal test/repair ordering, so uniform-cost conclusions are not universal. (7) Adding an irrelevant probe cannot improve Bayes risk but may consume scarce time.
+
+## Novelty status
+C1–C6 are elementary consequences of classical covering, decision theory and hypothesis testing. No new hardness theorem, approximation guarantee, tight general graph-family lower bound or original robust/chance separation has been proved. E08 must not promote them as new.
