@@ -29,3 +29,6 @@ Original-theorem research status NO-GO. Path-only probing makes two series-edge 
 
 ## Prompt 18
 No original theorem after forensic review. End-to-end series-path failures remain indistinguishable; repair-before-probe cannot save one irrevocable repair budget; two repairs provide universal fix. EC2 decision-loss reduction and ECED correlated tests strengthen prior-art collision. See theory/FORENSIC_NEGATIVE_RESULTS_PROMPT_18.md.
+
+## Prompt 19 cumulative audit
+No new theorem or publishable minimax separation; action-sufficient repair, overlapping regions and attestation costs remain covered by or reducible to existing decision-theoretic formulations absent a new restricted theorem. Evidence-integrity blockers documented in evidence/PROMPT_19_EVIDENCE_INTEGRITY.md. NO-GO original theorem.
