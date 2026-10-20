@@ -1,26 +1,28 @@
-# Novelty matrix — Prompt 07 (2026-10-20)
-| Claim | Prior art | Status | IDs |
+# Novelty matrix — Prompt 08 (2026-10-20)
+
+| Proposed claim | Closest prior evidence | Verdict | IDs |
 |---|---|---|---|
-| Adaptive scent and belief-state search | Infotaxis, POMDPs | Established | E001,E017-E018 |
-| Priced information before network construction | Stochastic probing, price of information | Established | E027-E029 |
-| Network repair and progressive information collection | Stochastic network repair | Established | E038-E039 |
-| Independent SAT proof checking | DRAT-trim | Established | E041 |
-| Independently checkable MIP optimization certificates | VIPR | Established | E042 |
-| Practically feasible PB optimization proof logging | VeriPB/CakePB | Established | E043 |
-| Proof length/verification complexity as mathematical resource | Cook-Reckhow | Established | E044 |
-| Static formal network safety checks | Header Space Analysis; NetKAT | Established | E045,E048 |
-| Algebraic mixed-integer infeasibility witnesses | Andersen et al. | Established | E046 |
-| More expressive certificate systems for SDP | Klep-Schweighofer | Established | E047 |
-| Formally specified MILP certificate checker | SMT VIPR checker | Established | E049 |
-| Joint sensing, structural creation, and **proof-system-specific** minimum certificate cost | Strong adjacent prior art | **Unverified candidate; no theorem** | E029,E038-E049 |
+| Scent search and belief-state planning | Infotaxis; POMDPs | Established | E001,E017-E018 |
+| Network creation and stochastic repair | Network design and repair | Established | E034-E039 |
+| Priced sensing before combinatorial construction | Price of information | Established | E029 |
+| Decision-dependent observation plus spanning tree optimization | Omer-Poss-Rougier | **Direct prior-art collision**; compact MILP under stated assumptions | E050 |
+| Joint sensor placement and routing | Paradiso et al. | **Direct prior-art collision** | E023 |
+| Distributionally robust optimization with costly information acquisition | Jin et al. preprint | Established research direction; publication status pending | E054 |
+| Approximation schemes for adaptive/nonadaptive probing | Segev-Singla | Established for studied classes | E055 |
+| Exact valid cutting planes with proof encoding and checking | Eifler-Gleixner | Established | E051 |
+| Independent optimality certificates for planning | Dold et al. | **Direct challenge to proof-aware planning novelty** | E052 |
+| Formalized soundness of planning certificates | Traytel | Established | E056 |
+| Learning safety/reachability certificates from data with PAC guarantees | Rickard et al. | **Direct challenge to data-driven certificate novelty** | E053 |
+| A genuinely new bound on joint sensing/creation/witness/checking cost for restricted transformation families | Above competing frameworks | **UNVERIFIED; no theorem or novelty approval** | pending |
 
-## Contradictions
-- A certificate for a proposed graph's connectivity can be just a path or spanning tree; independent verification is not new.
-- A SAT/ILP proof log can already certify feasibility or optimality in suitable encodings (E041-E043,E046,E049). Adding a verifier to a sensing policy does not constitute novelty.
-- Proof length depends on the proof system and encoding (E044). No representation-independent certificate lower bound may be inferred.
-- Bayesian posterior confidence in hidden theta is not a formal witness that a property holds in the true hidden theta.
-- LP Farkas-style infeasibility certificates do not transfer without conditions to semidefinite settings (E047).
-- Checking a network property after change (E045,E048) does not necessarily certify the entire stochastic decision process.
+## Counterclaims, limitations and required tests
+1. **Expressibility counterclaim:** finite sensing, transformation and verification policies may be encoded in a POMDP or decision-dependent information optimization; representation alone is not novel.
+2. **Compactness counterclaim:** E050 gives compact MILP under stated polyhedral uncertainty conditions, so claims of inherently exponential formulations need explicit restrictions.
+3. **Proof-aware planning counterclaim:** E052 and E056 establish independent optimality certificates and mechanized soundness; attaching a verifier is not a contribution.
+4. **Statistical certificate distinction:** E053's PAC generalization guarantee is not a deterministic assertion about every hidden state. Conversely, an encoded-instance witness need not certify an unknown physical world.
+5. **Certificate cost counterclaim:** E051 discusses valid cuts, their encoding lengths, and practical verification; counting proof cost alone is not new.
+6. **Adaptive guarantee caveat:** E055 concerns specific stochastic probing classes, not universal adaptive superiority.
+7. No unrestricted complexity separation can be asserted; must fix sensor likelihood, allowed structural edits, verifier/proof language, uncertainty semantics, computational budget, and matched baseline.
 
-## Remaining narrow question
-Formalize V(x,tau,w)=1 and distinguish (i) certificate of correctness for the **observed/encoded instance**, (ii) certificate for **all theta in an uncertainty set**, and (iii) probabilistic reliability. Seek a matched lower/upper bound on total observation, transformation, witness generation and checking cost. The candidate may collapse to standard stochastic optimization with proof logging; adversarial reductions required.
+## Citation chasing and quality control
+Backward links from E050 include uncertainty reduction and robust combinatorial optimization; E051 cites exact MIP certification; E056 formalizes E052. This is targeted backward/forward chaining, not a comprehensive citation graph. Existing E033 year corrected 2023 to **2024** using SIAM primary publication metadata. E054 is a preprint; E055 has online-first issue status. No new theorem proved.
