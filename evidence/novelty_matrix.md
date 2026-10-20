@@ -27,3 +27,6 @@ C15.1 universal repair => zero sensing; C15.2 repair without exact fault identif
 
 ## Prompt 16 — action-sufficient repair gate
 E16.1 two-state one-bit diagnosis and E16.2 three-state action sufficiency are elementary; E16.3 reduces robust stopping to version-space containment in a repair-valid decision region. E064 NeurIPS 2010 noisy cost-sensitive active learning is strong prior art. Crucial: local edge probes in toy examples are stronger than end-to-end path tests. **NO-GO for novelty on these facts alone**; Prompt 17 strict proof gate.
+
+## Prompt 17 strict originality gate
+E064 NeurIPS full paper defines equivalence-class determination and decision-target learning; E065 Chen/Hassani/Krause 2017 ECED with correlated noisy tests directly overlaps. T17.1 end-to-end path observation indistinguishability; T17.2 overlapping repair regions not a partition; T17.3 asymmetric edit costs representable in finite-horizon decision optimization. Elementary only. **NO-GO for original theorem; full E059–E063 proof audit incomplete.**
