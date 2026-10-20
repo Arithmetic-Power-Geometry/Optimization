@@ -17,3 +17,6 @@ Candidate: tight minimax information/repair/certificate bound for physical graph
 
 ## Prompt 14
 Q14 provisional attested repair minimax question and formal definitions in theory/ATTESTED_REPAIR_MODEL_PROMPT_14.md. Prior art E059–E062 strongly overlaps; model frozen for falsification only, no novelty established.
+
+## Prompt 15
+Q14 broad originality NO-GO after C15.1–C15.6. Narrow candidate: action-sufficient robust repair where exact failure identification is unnecessary, no universal repair exists, and a genuine lower bound survives standard active diagnosis/POMDP/DDID comparisons. Unproved; see theory/ADVERSARIAL_TESTS_PROMPT_15.md.
