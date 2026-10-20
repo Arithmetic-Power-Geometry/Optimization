@@ -1,0 +1,110 @@
+{
+  "schema": "e13-manifest-v1",
+  "status": "PLANNED_NOT_EXECUTED",
+  "date": "2026-10-20",
+  "python": [
+    "3.11",
+    "3.12"
+  ],
+  "seed": 20261020,
+  "paired_seeds": [
+    101,
+    211,
+    307,
+    401,
+    503,
+    601,
+    701,
+    809,
+    907,
+    1009,
+    1103,
+    1201,
+    1301,
+    1409,
+    1511,
+    1601,
+    1709,
+    1801,
+    1901,
+    2003
+  ],
+  "graph_families": [
+    {
+      "id": "synthetic-series",
+      "vertices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "single_failed_edge": true
+    },
+    {
+      "id": "synthetic-gate",
+      "hidden_states": 2,
+      "access_gate_failed": true
+    },
+    {
+      "id": "synthetic-branch",
+      "branches": [
+        2,
+        3,
+        4
+      ],
+      "composite_repairs": "NOT_IMPLEMENTED"
+    }
+  ],
+  "policies": [
+    "diagnosis_first",
+    "repair_first",
+    "random",
+    "cost_sensitive_greedy",
+    "drd_region_greedy",
+    "exact_oracle"
+  ],
+  "budgets": {
+    "repair": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "probe": [
+      0,
+      1,
+      2
+    ],
+    "time_rule": "repair_plus_probe"
+  },
+  "metrics": [
+    "terminal_service_success",
+    "robust_success",
+    "probe_attempts",
+    "repair_attempts",
+    "runtime_seconds"
+  ],
+  "primary_endpoint": "paired terminal_service_success difference",
+  "hypotheses": {
+    "null": "No candidate policy improves terminal service success against the strongest matched baseline",
+    "alternative": "At least one candidate policy improves matched success"
+  },
+  "analysis": {
+    "paired_unit": "graph_seed_budget_instance",
+    "confidence_interval": "paired bootstrap 95% percentile interval, 10000 resamples",
+    "multiple_testing": "Holm correction across predeclared comparisons",
+    "alpha": 0.05,
+    "report_effect_size": true,
+    "report_negative_results": true
+  },
+  "limits": {
+    "oracle_timeout_seconds": 30,
+    "per_case_timeout_seconds": 60,
+    "ci_minutes": 10
+  },
+  "stop_rules": [
+    "Do not report unexecuted comparisons",
+    "Any budget or information-right mismatch invalidates comparison",
+    "Do not claim novelty from benchmark superiority"
+  ]
+}
