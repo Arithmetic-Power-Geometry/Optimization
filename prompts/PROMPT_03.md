@@ -1,0 +1,2 @@
+# Execute Prompt 03
+Deep-mine primary canine olfaction, plume tracking, infotaxis, odor intermittency, olfactory memory and multisensory robotics. Compare biological mechanisms against existing search algorithms and formal sensing models. Verify primary metadata/abstracts and inspect full texts where accessible. Append stable evidence IDs and verified BibTeX; update novelty matrix, research report and progress. Record contrary results and methodological limitations. Commit and verify all changes; STOP and request authorization for Prompt 04. No software or manuscript.
