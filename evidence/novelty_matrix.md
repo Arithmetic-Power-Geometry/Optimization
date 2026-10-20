@@ -18,3 +18,6 @@
 
 ## Prompt 13 continuation: attested physical repair
 E057 (2021) probabilistic fault-probe selection, E058 (2019) progressive uncertain network recovery, and E059 (2015) monitor placement/identifiability directly reject novelty claims about these ingredients. No new theorem. Conditional GO for restricted problem definition at Prompt 14 only; manuscript NO-GO. Source inspection limited to publisher/institutional abstracts.
+
+## Prompt 14 — provisional model freeze
+E060 author preprint gives polynomially testable failure-identifiability conditions under three probing models; E061 and E062 are proof companions, not independent studies. These defeat broad path-tomography novelty. Attested repair Q14 is a **provisional falsifiable question only**, not a novel theorem; authentication of provenance is not physical correctness. NO-GO manuscript, conditional adversarial test at Prompt 15. See evidence/PROMPT_14_REPORT.md.
