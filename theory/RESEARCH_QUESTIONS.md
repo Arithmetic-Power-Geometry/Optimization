@@ -5,3 +5,6 @@ Unproved targets: T1 representation/information separation; T2 minimal sensing f
 
 ## Prompt 10 refinement
 See FORMAL_MODEL_PROMPT_10.md. H10.1-H10.3 are unproved falsifiable conjectures. P10.1-P10.4 are known/elementary baselines, not original theorems. Broad novelty NO-GO; restricted theorem gate CONDITIONAL.
+
+## Prompt 11 final gate
+See theory/ADVERSARIAL_GATE_PROMPT_11.md. H10.1 NO-GO as formulated, H10.2 trivial existential cost reversal but novelty NO-GO, H10.3 general novelty NO-GO. No new theorem established. Do not draft a paper without a new explicit restricted-family separation.
