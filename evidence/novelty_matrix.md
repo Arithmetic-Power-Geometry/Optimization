@@ -30,3 +30,6 @@ E16.1 two-state one-bit diagnosis and E16.2 three-state action sufficiency are e
 
 ## Prompt 17 strict originality gate
 E064 NeurIPS full paper defines equivalence-class determination and decision-target learning; E065 Chen/Hassani/Krause 2017 ECED with correlated noisy tests directly overlaps. T17.1 end-to-end path observation indistinguishability; T17.2 overlapping repair regions not a partition; T17.3 asymmetric edit costs representable in finite-horizon decision optimization. Elementary only. **NO-GO for original theorem; full E059–E063 proof audit incomplete.**
+
+## Prompt 18 — forensic negative-results gate
+F18.1 corrects repair-before-probe ambiguity: with one irrevocable repair and two indistinguishable series-edge failures, the wrong first repair exhausts budget; with two repairs, universal repair is possible. F18.2 action-region overlap is standard terminal feasibility; F18.3 local edge tests are not end-to-end probes; F18.4 asymmetric costs are ordinary cost-sensitive planning. E064 Theorem 1/Proposition 2/Theorem 3 and Section 4 read from primary PDF; E065 ECED journal version DOI 10.1214/17-EJS1336SI deduplicated. NO-GO for original theorem. Zero new distinct evidence IDs.
