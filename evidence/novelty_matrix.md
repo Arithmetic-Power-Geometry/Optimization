@@ -24,3 +24,6 @@ E060 author preprint gives polynomially testable failure-identifiability conditi
 
 ## Prompt 15 — adversarial falsification
 C15.1 universal repair => zero sensing; C15.2 repair without exact fault identification; C15.3 signature authenticates source, not truth; C15.4 fixed attestation cost collapses to priced POMDP; C15.5 comparator must retain outcome-dependent repair; C15.6 common-repair relation need not be transitive. E060 corrected to published 2017 IEEE/ACM ToN (preprint 2015), E063 added as technical proof companion. Q14 broad novelty NO-GO; conditional narrow action-sufficiency test only. See evidence/PROMPT_15_REPORT.md.
+
+## Prompt 16 — action-sufficient repair gate
+E16.1 two-state one-bit diagnosis and E16.2 three-state action sufficiency are elementary; E16.3 reduces robust stopping to version-space containment in a repair-valid decision region. E064 NeurIPS 2010 noisy cost-sensitive active learning is strong prior art. Crucial: local edge probes in toy examples are stronger than end-to-end path tests. **NO-GO for novelty on these facts alone**; Prompt 17 strict proof gate.
