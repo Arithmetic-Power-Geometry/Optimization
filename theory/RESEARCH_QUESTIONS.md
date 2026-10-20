@@ -26,3 +26,6 @@ Action-sufficient repair stopping condition: version-space support contained in 
 
 ## Prompt 17 strict gate
 Original-theorem research status NO-GO. Path-only probing makes two series-edge failures observationally indistinguishable absent intervening repairs; overlapping repair regions do not alone establish novelty over decision-region frameworks; asymmetric repair costs reduce to finite belief-state planning. See theory/PROOF_GATE_PROMPT_17.md.
+
+## Prompt 18
+No original theorem after forensic review. End-to-end series-path failures remain indistinguishable; repair-before-probe cannot save one irrevocable repair budget; two repairs provide universal fix. EC2 decision-loss reduction and ECED correlated tests strengthen prior-art collision. See theory/FORENSIC_NEGATIVE_RESULTS_PROMPT_18.md.
