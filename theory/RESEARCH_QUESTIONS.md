@@ -14,3 +14,6 @@ See theory/ADVERSARIAL_GATE_PROMPT_11.md. H10.1 NO-GO as formulated, H10.2 trivi
 
 ## Prompt 13 continuation — attested physical repair
 Candidate: tight minimax information/repair/certificate bound for physical graph failures under explicitly trusted observations, with matched POMDP/DDID/tomography baselines. Unproved; see evidence/PROMPT_13_REPORT.md. The original broad paradigm remains NO-GO.
+
+## Prompt 14
+Q14 provisional attested repair minimax question and formal definitions in theory/ATTESTED_REPAIR_MODEL_PROMPT_14.md. Prior art E059–E062 strongly overlaps; model frozen for falsification only, no novelty established.
