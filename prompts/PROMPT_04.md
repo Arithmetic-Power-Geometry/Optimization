@@ -1,0 +1,2 @@
+# Execute Prompt 04
+Investigate primary Bayesian experimental design, POMDPs, value-of-information, active sensing and decision-dependent observations. Search especially for prior work jointly choosing measurements and network/design transformations, including certificates or safety constraints. Verify metadata and claims, append registry/BibTeX, update novelty matrix and counterexamples, and explicitly decide whether the candidate gap survives. Commit, fetch and verify all outputs, then STOP and ask permission for Prompt 05. Do not code or write the manuscript.
