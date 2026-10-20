@@ -1,21 +1,20 @@
-# Novelty matrix — Prompt 03, 2026-10-20
-| Candidate claim | Closest evidence | Verdict | IDs |
+# Novelty matrix — Prompt 04 (2026-10-20)
+| Claim | Closest prior art | Assessment | Evidence |
 |---|---|---|---|
-| Dynamically adding columns/variables | Dantzig-Wolfe | Established | E004 |
-| Extended formulation / representation separation | Yannakakis; Rothvoss | Established for specified models | E006,E007 |
-| Network design and bilevel co-design | Benders; bilevel survey | Established | E005,E008,E010 |
-| Automated formulation search | Autoformulation | Established | E009 |
-| Bilateral odor sampling | Canine nasal flow | Biological mechanism established | E011 |
-| Active sniffing changes information collection | Canine olfactory flow | Established | E012 |
-| Intermittent scent Bayesian search | Infotaxis and robotic tests | Established | E001,E014 |
-| Scent-loss memory and reactive search | Cyborg moth experiment | Established; may outperform infotaxis in certain conditions | E013 |
-| Olfactory robot search | Plume-tracking robots | Established | E015 |
-| Nostril lateralization | Canine behavioral experiment | Established biological phenomenon | E016 |
-| Information-guided certificate-valid structural creation | Adjacent POMDP and stochastic network design | **Unverified; do not claim novel** | pending |
-| Certified adaptive-vs-nonadaptive creation gap | Existing information/complexity work must be audited | **Conjectural target only** | pending |
+| Intermittent scent search | Infotaxis | Established | E001 |
+| Adaptive sensing guarantees | Adaptive submodularity | Established with conditions | E002 |
+| Structural design and reformulation | Network design, Dantzig-Wolfe, Benders, autoformulation | Established | E003-E010 |
+| Biological bilateral sampling and plume tracking | Canine and robot studies | Established | E011-E016 |
+| Hidden-state Bayesian policy optimization | Smallwood-Sondik; Kaelbling et al. | Established | E017,E018 |
+| Optimal conditional sensing and information value | Krause-Guestrin; knowledge gradient | Established | E019,E020 |
+| Decisions determine when information becomes available | Jonsbraten et al.; Goel-Grossmann | Established | E021,E022 |
+| Joint sensor placement and routing | Paradiso et al.; Zhou-List | **Direct counterexample to broad joint-sensing/design novelty** | E023,E026 |
+| Multistage exploratory investments before adaptive decisions | Vayanos et al. | Established | E024 |
+| Decisions change probability distributions | Pantuso-Hewitt | Established | E025 |
+| Independently certified *new structural model* chosen under information restrictions | POMDPs, endogenous information, verification still to audit | Unverified; narrow candidate | E017-E025 |
+| Novel matched sensing/creation/certificate complexity lower bound | Information complexity, formal proof systems still to audit | Unproved hypothesis | pending |
 
-## Contradictions and restrictions
-Reactive search can outperform cognitive infotaxis in certain experimental conditions (E013), refuting unconditional claims of smarter sensing superiority. Canine airflow physiology (E011,E012) cannot establish optimization gains without a formal model. Moth evidence (E013-E015) is not canine-specific. An unrestricted stochastic policy optimizer can represent finite sensing/creation policies; the research must seek restricted complexity/information guarantees.
+## Contradictory evidence and limitations
+E023 explicitly cooptimizes sensor placement and routing, invalidating an unqualified novelty claim for sensing-aware network decisions. E024 and E022 already model costly information revelation controlled by decisions. E019 proves severe computational hardness for value of information, so efficiency cannot be assumed. E025 shows existing exact decomposition for decision-dependent distributions. POMDPs (E017,E018) can encode finite sensory-creation policies by augmenting states and actions; an expressiveness-only novelty claim fails.
 
-## Audit limits
-Targeted sources, not comprehensive coverage; full author metadata for E016 pending; PLOS correction to E013 requires inspection. No novel theorem proven.
+The candidate must state a specific transformation language, certificate relation, information restrictions, and cost model; test for reduction to existing stochastic/robust formulations. No theorem established, no novelty percentage warranted. Literature inspection mainly abstracts and one article section; not a comprehensive systematic review.
