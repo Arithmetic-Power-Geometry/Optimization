@@ -10,32 +10,38 @@
     "exact_oracle": {
       "n": 30,
       "nonzeroGap": 0,
-      "sumSuccess": null
+      "sumSuccess": 10.700000000000003,
+      "meanSuccess": 0.35666666666666674
     },
     "diagnosis_first": {
       "n": 30,
       "nonzeroGap": 0,
-      "sumSuccess": null
+      "sumSuccess": 10.700000000000003,
+      "meanSuccess": 0.35666666666666674
     },
     "repair_first": {
       "n": 30,
       "nonzeroGap": 0,
-      "sumSuccess": null
+      "sumSuccess": 10.700000000000003,
+      "meanSuccess": 0.35666666666666674
     },
     "random": {
       "n": 30,
-      "nonzeroGap": 0,
-      "sumSuccess": null
+      "nonzeroGap": 3,
+      "sumSuccess": 9.200000000000003,
+      "meanSuccess": 0.30666666666666675
     },
     "cost_sensitive_greedy": {
       "n": 30,
       "nonzeroGap": 0,
-      "sumSuccess": null
+      "sumSuccess": 10.700000000000003,
+      "meanSuccess": 0.35666666666666674
     },
     "drd_region_greedy": {
       "n": 30,
       "nonzeroGap": 0,
-      "sumSuccess": null
+      "sumSuccess": 10.700000000000003,
+      "meanSuccess": 0.35666666666666674
     }
   },
   "e16": {
@@ -215,5 +221,6 @@
     "No independent E15–E17 Python runtime reproduction",
     "E16–E17 synthetic fault schedules deterministic",
     "No Mininet/ns-3 measured data"
-  ]
+  ],
+  "validation_note": "E14 fractions parsed as exact rational numerator/denominator; initial JSON null values corrected before freeze"
 }
