@@ -5,7 +5,7 @@
 - Local P02 paper: **10 pages, 12 complete BibTeX entries, no authorless evidence-registry citations, no final LaTeX undefined reference/citation warnings**. PDF SHA256 118d6cf237c9387a43d3a2e3a0728c6d915b9703ff28812c8e7dc504a4d8b750. PDF and revised TeX are in local Optimization_P02_COMPLETE_LOCAL.zip, **NOT GitHub**.
 - P02 ledger: 64 retained registry rows; E040 quarantined; five selected entries have P02 primary metadata checks/earlier verified publisher information, 59 registry-only. Prior source's 12 bibliography entries do not establish full-text primary verification of all 12. Canonical work-level deduplication remains open.
 - Original algorithm/theorem novelty: **NO-GO**; P03 would need a genuinely new, independently checked result.
-- P03: NOT EXECUTED.
+- **P03: PARTIAL EXECUTED.** Committed finite-state repair model, exact Bayesian oracle, myopic heuristic, 10 unexecuted GitHub unit-test definitions, and proof/originality gate. A separately implemented local independent checker PASSED 11 assertions (7 path bounds and 4 examples). Synthetic three-world access-gate oracle value 1 versus myopic 2/3; this is NOT an original algorithm or a published-baseline comparison. GitHub clean-checkout tests NOT executed; original paper's robust minimax objective is different. See latest/theory/PROOF_GATE.md and latest/validation/P03_report.md. Original-algorithm/theorem originality remains NO-GO.
 - P04: NOT EXECUTED.
 - P05: NOT EXECUTED.
 - **SUBMISSION: NO-GO**; do not claim 64 or 78 verified publications or clean-checkout reproducibility.
