@@ -1,0 +1,77 @@
+{
+  "schema": "e15-topology-manifest-v1",
+  "date": "2026-10-21",
+  "status": "ACQUIRED_VERIFIED",
+  "dataset": "Internet Topology Zoo",
+  "source_url": "https://github.com/mroughan/InternetTopologyZoo",
+  "citation": "Knight et al. (2011), The Internet Topology Zoo, IEEE JSAC, DOI 10.1109/JSAC.2011.111002",
+  "license": "CC BY 4.0",
+  "license_url": "https://github.com/mroughan/InternetTopologyZoo/blob/main/LICENSE",
+  "hash_method": "Git blob SHA-1 = SHA1('blob '+UTF8(byte_length)+'\\0'+raw_bytes); not ordinary file SHA1",
+  "processing": "GraphML node ids preserved; simple undirected edges canonicalized numeric min/max and sorted; node and edge metadata not retained in CSV; raw GraphML retained",
+  "topologies": [
+    {
+      "id": "Abilene",
+      "source_repository": "mroughan/InternetTopologyZoo",
+      "source_path": "graphml/Abilene.graphml",
+      "source_git_blob_sha1": "330c97a349a80a8f3e1c825072e45ca503d0eab7",
+      "clean_nodes_git_blob_sha1": "8803e109b27935be5d8e28a925b292b6fa8cbfd2",
+      "clean_edges_git_blob_sha1": "2404d1d2dbc35bf130a42aba5a104798e6f01c9c",
+      "nodes": 11,
+      "edges": 14,
+      "components": 1,
+      "component_sizes": [
+        11
+      ],
+      "isolated_nodes": 0,
+      "graph_type": "undirected simple graph",
+      "license": "CC BY 4.0",
+      "failure_status": "NO_FAILURES_OBSERVED",
+      "graph_provenance": "historical traced topology, not live measurement"
+    },
+    {
+      "id": "Geant2012",
+      "source_repository": "mroughan/InternetTopologyZoo",
+      "source_path": "graphml/Geant2012.graphml",
+      "source_git_blob_sha1": "a61eb6798dae90a000ed2f64a43241a075b05ed3",
+      "clean_nodes_git_blob_sha1": "8e95e8272069a3ae96e930d68170a6b620a3e955",
+      "clean_edges_git_blob_sha1": "b247b5d27946fa74b574b1c0cd5aa3b16f467dc0",
+      "nodes": 40,
+      "edges": 61,
+      "components": 1,
+      "component_sizes": [
+        40
+      ],
+      "isolated_nodes": 0,
+      "graph_type": "undirected simple graph",
+      "license": "CC BY 4.0",
+      "failure_status": "NO_FAILURES_OBSERVED",
+      "graph_provenance": "historical traced topology, not live measurement"
+    },
+    {
+      "id": "Arpanet19728",
+      "source_repository": "mroughan/InternetTopologyZoo",
+      "source_path": "graphml/Arpanet19728.graphml",
+      "source_git_blob_sha1": "50b7f8d9802f1bd396a5a1a506ff4cd3caf7f3d0",
+      "clean_nodes_git_blob_sha1": "67114a7f123fc81cad5a5cacb4644eb9151ecb49",
+      "clean_edges_git_blob_sha1": "d7287e990d8060a553d04f0d70b17d0e78e49b43",
+      "nodes": 29,
+      "edges": 32,
+      "components": 1,
+      "component_sizes": [
+        29
+      ],
+      "isolated_nodes": 0,
+      "graph_type": "undirected simple graph",
+      "license": "CC BY 4.0",
+      "failure_status": "NO_FAILURES_OBSERVED",
+      "graph_provenance": "historical traced topology, not live measurement"
+    }
+  ],
+  "caida_itdk": {
+    "status": "BLOCKED_NOT_ACQUIRED",
+    "reason": "CAIDA access requires request/acceptance of AUA; no approval or downloaded release files in this stage",
+    "dataset_url": "https://www.caida.org/catalog/datasets/internet-topology-data-kit/",
+    "checksum": null
+  }
+}
