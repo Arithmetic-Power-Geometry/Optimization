@@ -1,0 +1,38 @@
+{
+  "schema": "e19-environment-v1",
+  "date": "2026-10-21",
+  "status": "BLOCKED_NS3_UNAVAILABLE",
+  "inspection": "EXECUTED_LOCAL_CONTAINER",
+  "os": "Linux 6.18.55 x86_64 GNU/Linux",
+  "python": "3.13.5",
+  "commands": {
+    "ns3": null,
+    "ns-3": null,
+    "waf": null,
+    "cmake": "/usr/bin/cmake",
+    "ninja": "/usr/bin/ninja",
+    "g++": "/usr/bin/g++",
+    "git": "/usr/bin/git"
+  },
+  "ns3_python_modules": {
+    "ns": false,
+    "ns3": false,
+    "cppyy": false
+  },
+  "checked_source_paths": [
+    "/opt/ns-3",
+    "/usr/local/ns-3",
+    "/home/oai/share/ns-3",
+    "/mnt/data/ns-3"
+  ],
+  "source_paths_present": [],
+  "github_dns": "FAILED: gaierror(-3, Temporary failure in name resolution)",
+  "ns3_runs": 0,
+  "ns3_builds": 0,
+  "packet_traces": 0,
+  "measured_packet_metrics": 0,
+  "e15_python": "NOT_EXECUTED",
+  "e16_python": "NOT_EXECUTED",
+  "e17_python": "NOT_EXECUTED",
+  "note": "No ns-3 simulation, routing convergence, latency, loss or downtime results exist."
+}
