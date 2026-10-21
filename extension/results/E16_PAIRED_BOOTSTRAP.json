@@ -1,0 +1,204 @@
+{
+  "schema": "E16_CI_V1",
+  "status": "EXECUTED_JS",
+  "unit": "seed (two budgets aggregated per seed)",
+  "method": "paired percentile bootstrap, 2000 resamples, LCG 20261021 reinitialized per comparison",
+  "multiple_testing": "No adjusted p-values computed; exploratory confidence intervals only",
+  "comparisons": [
+    {
+      "topology": "Abilene",
+      "policy": "repair_first",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0,
+      "bootstrap_95_ci": [
+        0,
+        0
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Abilene",
+      "policy": "diagnosis_first",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0,
+      "bootstrap_95_ci": [
+        -0.3,
+        0.325
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Abilene",
+      "policy": "cost_sensitive_greedy",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0,
+      "bootstrap_95_ci": [
+        -0.3,
+        0.325
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Abilene",
+      "policy": "drd_region_greedy",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0,
+      "bootstrap_95_ci": [
+        0,
+        0
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Abilene",
+      "policy": "random",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0.125,
+      "bootstrap_95_ci": [
+        -0.175,
+        0.4
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Geant2012",
+      "policy": "repair_first",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0,
+      "bootstrap_95_ci": [
+        0,
+        0
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Geant2012",
+      "policy": "diagnosis_first",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0.05,
+      "bootstrap_95_ci": [
+        -0.2,
+        0.275
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Geant2012",
+      "policy": "cost_sensitive_greedy",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0,
+      "bootstrap_95_ci": [
+        -0.2,
+        0.2
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Geant2012",
+      "policy": "drd_region_greedy",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0,
+      "bootstrap_95_ci": [
+        -0.125,
+        0.125
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Geant2012",
+      "policy": "random",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0.025,
+      "bootstrap_95_ci": [
+        -0.15,
+        0.175
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Arpanet19728",
+      "policy": "repair_first",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0,
+      "bootstrap_95_ci": [
+        -0.225,
+        0.225
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Arpanet19728",
+      "policy": "diagnosis_first",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0.05,
+      "bootstrap_95_ci": [
+        -0.175,
+        0.275
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Arpanet19728",
+      "policy": "cost_sensitive_greedy",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0.025,
+      "bootstrap_95_ci": [
+        -0.15,
+        0.175
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Arpanet19728",
+      "policy": "drd_region_greedy",
+      "paired_seed_count": 20,
+      "paired_difference_mean": 0.025,
+      "bootstrap_95_ci": [
+        -0.075,
+        0.125
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    },
+    {
+      "topology": "Arpanet19728",
+      "policy": "random",
+      "paired_seed_count": 20,
+      "paired_difference_mean": -0.075,
+      "bootstrap_95_ci": [
+        -0.225,
+        0.1
+      ],
+      "bootstrap_resamples": 2000,
+      "baseline": "exact_uniform_oracle realized success",
+      "confidence_scope": "conditional on fixed topology/path and deterministic balanced fault-index schedule"
+    }
+  ]
+}
