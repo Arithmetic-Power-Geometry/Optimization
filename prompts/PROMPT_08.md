@@ -1,2 +1,0 @@
-# Execute Prompt 08
-Perform adversarial 2023–2026 primary-literature mining and citation chasing for certified optimization, proof-aware planning, information-limited network design, stochastic probing, adaptive verification and decision-dependent observations. Validate exact bibliographic metadata and proof claims, identify closest competing formulations, append evidence/BibTeX, update novelty matrix, contradictions and progress. Commit and independently verify GitHub files. STOP and ask permission for Prompt 09. No software or manuscript.

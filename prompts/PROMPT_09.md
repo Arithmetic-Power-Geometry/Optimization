@@ -1,2 +1,0 @@
-# Execute Prompt 09
-Audit and deduplicate all cumulative literature records and BibTeX, verify primary DOI/author/year/venue and full-text claims where accessible, flag unresolved entries, perform a final adversarial novelty synthesis with go/no-go alternatives, and freeze only a defensible candidate theory question. Update the novelty matrix, contradictions, evidence and progress. Commit all changes, independently fetch and verify every artifact, then STOP and ask permission for Prompt 10. Do not write software or manuscript.

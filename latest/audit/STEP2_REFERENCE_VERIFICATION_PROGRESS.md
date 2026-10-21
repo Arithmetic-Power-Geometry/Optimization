@@ -1,9 +1,0 @@
-# Step 2: original 64-reference verification — partial progress, 2026-10-21
-
-**Do not mark complete.** All 64 original registry records were retained in a local CSV with individual status fields. This pass independently checked two of those records against primary publisher pages; the other 62 require further work. Earlier P02 checks of five selected references remain separately recorded and are not counted as new checks here.
-
-- **E009:** Nicolás Astorga, Tennison Liu, Yuanzhang Xiao, Mihaela van der Schaar, *Autoformulation of Mathematical Optimization Models Using LLMs*, ICML 2025, PMLR 267:1864–1886. https://proceedings.mlr.press/v267/astorga25a.html. DOI not supplied on PMLR page. Contextual relevance only; not a core repair-theory comparator.
-- **E029:** Sahil Singla, *The Price of Information in Combinatorial Optimization*, SODA 2018, pp. 2523–2532. **Correct DOI 10.1137/1.9781611975031.161**, not .164. https://epubs.siam.org/doi/abs/10.1137/1.9781611975031.161. Relevant to priced probing.
-- **E040 (separate excluded candidate):** Nick Giannarakis, Ryan Beckett, Ratul Mahajan, David Walker, *Efficient Verification of Network Fault Tolerance via Counterexample-Guided Refinement*, CAV 2019, LNCS 11562:305–323. DOI 10.1007/978-3-030-25543-5_18. https://link.springer.com/chapter/10.1007/978-3-030-25543-5_18. Restore as a candidate, then assess exact claim relevance; do not silently change 64 to 65 verified sources.
-
-Local downloadable Step 2 archive: 64-row verification-status CSV, E040 metadata record, progress report. No manuscript revision or expanded BibTeX is certified in this pass. Remaining tasks: primary publisher checks for all unresolved entries, version-level deduplication, claim-to-reference mapping, then manuscript citation and BibTeX repair. **Submission NO-GO remains.**

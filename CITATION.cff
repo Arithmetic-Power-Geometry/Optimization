@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the Zenodo Version V1 publication when using this research."
+title: "When Does Information Help Network Repair? Decision Sufficiency, Physical Path Probes, and the Limits of Diagnosis"
+type: article
+authors:
+  - family-names: Akhtar
+    given-names: Mohammad Amir Khusru
+    orcid: "https://orcid.org/0000-0002-3432-4199"
+doi: 10.5281/zenodo.23533208
+date-released: 2026-10-21
+version: V1
+repository-code: https://github.com/Arithmetic-Power-Geometry/Optimization
+url: https://doi.org/10.5281/zenodo.23533208
+preferred-citation:
+  type: generic
+  title: "When Does Information Help Network Repair? Decision Sufficiency, Physical Path Probes, and the Limits of Diagnosis"
+  authors:
+    - family-names: Akhtar
+      given-names: Mohammad Amir Khusru
+  year: 2026
+  doi: 10.5281/zenodo.23533208
+  version: V1
+  publisher:
+    name: Zenodo

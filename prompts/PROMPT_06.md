@@ -1,2 +1,0 @@
-# Execute Prompt 06
-Deep-mine primary network augmentation, repair, network design with stochastic and endogenous uncertainty, bilevel structural optimization and decisions that modify feasibility. Search explicitly for priced sensing followed by network construction and formal validity/safety guarantees. Append verified evidence and BibTeX, update novelty matrix and contradictions, and decide whether the remaining certificate-aware structural creation gap survives. Commit all files, independently fetch and verify, then STOP and request Prompt 07. No software or manuscript.
