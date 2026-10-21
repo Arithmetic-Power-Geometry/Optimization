@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-21",
+  "status": "INDEPENDENT_CONNECTOR_CSV_RECALCULATION",
+  "source_files": [
+    "extension/results/E14_RAW_COMPACT.csv",
+    "extension/results/E16_MATCHED_EPISODES.csv",
+    "extension/results/E17_ABLATION_EPISODES.csv"
+  ],
+  "e14": {
+    "exact_oracle": {
+      "n": 30,
+      "nonzeroGap": 0,
+      "sumSuccess": null
+    },
+    "diagnosis_first": {
+      "n": 30,
+      "nonzeroGap": 0,
+      "sumSuccess": null
+    },
+    "repair_first": {
+      "n": 30,
+      "nonzeroGap": 0,
+      "sumSuccess": null
+    },
+    "random": {
+      "n": 30,
+      "nonzeroGap": 0,
+      "sumSuccess": null
+    },
+    "cost_sensitive_greedy": {
+      "n": 30,
+      "nonzeroGap": 0,
+      "sumSuccess": null
+    },
+    "drd_region_greedy": {
+      "n": 30,
+      "nonzeroGap": 0,
+      "sumSuccess": null
+    }
+  },
+  "e16": {
+    "Abilene|exact_uniform_oracle": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|repair_first": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|diagnosis_first": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|cost_sensitive_greedy": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|drd_region_greedy": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|random": {
+      "n": 40,
+      "success": 17
+    },
+    "Geant2012|exact_uniform_oracle": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|repair_first": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|diagnosis_first": {
+      "n": 40,
+      "success": 9
+    },
+    "Geant2012|cost_sensitive_greedy": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|drd_region_greedy": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|random": {
+      "n": 40,
+      "success": 8
+    },
+    "Arpanet19728|exact_uniform_oracle": {
+      "n": 40,
+      "success": 6
+    },
+    "Arpanet19728|repair_first": {
+      "n": 40,
+      "success": 6
+    },
+    "Arpanet19728|diagnosis_first": {
+      "n": 40,
+      "success": 8
+    },
+    "Arpanet19728|cost_sensitive_greedy": {
+      "n": 40,
+      "success": 7
+    },
+    "Arpanet19728|drd_region_greedy": {
+      "n": 40,
+      "success": 7
+    },
+    "Arpanet19728|random": {
+      "n": 40,
+      "success": 3
+    }
+  },
+  "e17": {
+    "Abilene|baseline": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|no_adaptive_probes": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|no_post_repair_probes": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|no_decision_sufficiency": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|heterogeneous_costs": {
+      "n": 40,
+      "success": 8
+    },
+    "Abilene|noisy_full_path": {
+      "n": 40,
+      "success": 12
+    },
+    "Abilene|correlated_failures": {
+      "n": 40,
+      "success": 4
+    },
+    "Abilene|shifted_prior": {
+      "n": 40,
+      "success": 33
+    },
+    "Geant2012|baseline": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|no_adaptive_probes": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|no_post_repair_probes": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|no_decision_sufficiency": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|heterogeneous_costs": {
+      "n": 40,
+      "success": 5
+    },
+    "Geant2012|noisy_full_path": {
+      "n": 40,
+      "success": 7
+    },
+    "Geant2012|correlated_failures": {
+      "n": 40,
+      "success": 2
+    },
+    "Geant2012|shifted_prior": {
+      "n": 40,
+      "success": 32
+    },
+    "Arpanet19728|baseline": {
+      "n": 40,
+      "success": 6
+    },
+    "Arpanet19728|no_adaptive_probes": {
+      "n": 40,
+      "success": 6
+    },
+    "Arpanet19728|no_post_repair_probes": {
+      "n": 40,
+      "success": 6
+    },
+    "Arpanet19728|no_decision_sufficiency": {
+      "n": 40,
+      "success": 6
+    },
+    "Arpanet19728|heterogeneous_costs": {
+      "n": 40,
+      "success": 4
+    },
+    "Arpanet19728|noisy_full_path": {
+      "n": 40,
+      "success": 6
+    },
+    "Arpanet19728|correlated_failures": {
+      "n": 40,
+      "success": 2
+    },
+    "Arpanet19728|shifted_prior": {
+      "n": 40,
+      "success": 33
+    }
+  },
+  "limits": [
+    "Raw CSV arithmetic reproduced from independently fetched files",
+    "No independent E15–E17 Python runtime reproduction",
+    "E16–E17 synthetic fault schedules deterministic",
+    "No Mininet/ns-3 measured data"
+  ]
+}
