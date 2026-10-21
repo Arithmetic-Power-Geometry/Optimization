@@ -1,0 +1,12 @@
+# E21 source-to-artifact mapping and gates
+- Original source archive (local user-uploaded): Optimization_Final_Revision_LaTeX.zip.
+- Original source SHA256 main.tex: 1dea4d38620b048c33ab8abb84ecdbee56130a37278e6583147e64b343bd591a.
+- Revised source SHA256 main.tex: 03d96bf0afd1e56b7707625a6b65153caa017eb9d342d07df4ce391fc01d9941.
+- Revised PDF SHA256: 98b44d0982697ca1431dc6f9b0f7ce9eb343d964926b638bd34d202e86974690; 10 pages.
+- Locally packaged: /mnt/data/Optimization_E21_Revised_LaTeX.zip (original and revised source, PDF, .bbl, full diff).
+- Local PDF: /mnt/data/Optimization_E21_Revised_Manuscript.pdf.
+- Compilation: pdflatex successful, three passes; original .bbl copied from archive because bibtex unavailable. Final log no undefined references/citations.
+- Original 11 numbered sections preserved; four subsections added under Section 9. Existing five tables/four figures/two algorithms retained, two new tables added, all floats [H].
+- Bibliography: 12 source BibTeX entries; 12 distinct cited keys, all resolved. 64-entry E02 evidence inventory is NOT the same as verified BibTeX; 78+ citations are NOT present.
+- GitHub upload of source and PDF: BLOCKED by disconnected container/GitHub connector byte-transfer limitation; this report does NOT pretend otherwise.
+- Scientific: E08 originality NO-GO; E15–E17 Python validation open; E18/E19 simulators blocked; no empirical superiority or real outages.
