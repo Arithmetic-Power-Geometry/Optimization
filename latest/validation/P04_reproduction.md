@@ -1,0 +1,1 @@
+P04 partial. Local reconstructed tests: 10 passed. Thirty constructed gate cases: oracle 1, myopic 2/3. No verified network topology, published baseline, packet simulation, or clean GitHub checkout. Stop before P05.
