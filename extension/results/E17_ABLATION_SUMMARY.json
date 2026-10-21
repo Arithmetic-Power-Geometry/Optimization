@@ -1,0 +1,201 @@
+{
+  "status": "EXECUTED_JS_RESTRICTED_FIXED_PATH",
+  "episodes": 960,
+  "summary": [
+    {
+      "topology": "Abilene",
+      "scenario": "baseline",
+      "n": 40,
+      "success": 12,
+      "success_rate": 0.3,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Abilene",
+      "scenario": "no_adaptive_probes",
+      "n": 40,
+      "success": 12,
+      "success_rate": 0.3,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Abilene",
+      "scenario": "no_post_repair_probes",
+      "n": 40,
+      "success": 12,
+      "success_rate": 0.3,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Abilene",
+      "scenario": "no_decision_sufficiency",
+      "n": 40,
+      "success": 12,
+      "success_rate": 0.3,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Abilene",
+      "scenario": "heterogeneous_costs",
+      "n": 40,
+      "success": 8,
+      "success_rate": 0.2,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Abilene",
+      "scenario": "noisy_full_path",
+      "n": 40,
+      "success": 12,
+      "success_rate": 0.3,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Abilene",
+      "scenario": "correlated_failures",
+      "n": 40,
+      "success": 4,
+      "success_rate": 0.1,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Abilene",
+      "scenario": "shifted_prior",
+      "n": 40,
+      "success": 33,
+      "success_rate": 0.825,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Geant2012",
+      "scenario": "baseline",
+      "n": 40,
+      "success": 7,
+      "success_rate": 0.175,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Geant2012",
+      "scenario": "no_adaptive_probes",
+      "n": 40,
+      "success": 7,
+      "success_rate": 0.175,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Geant2012",
+      "scenario": "no_post_repair_probes",
+      "n": 40,
+      "success": 7,
+      "success_rate": 0.175,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Geant2012",
+      "scenario": "no_decision_sufficiency",
+      "n": 40,
+      "success": 7,
+      "success_rate": 0.175,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Geant2012",
+      "scenario": "heterogeneous_costs",
+      "n": 40,
+      "success": 5,
+      "success_rate": 0.125,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Geant2012",
+      "scenario": "noisy_full_path",
+      "n": 40,
+      "success": 7,
+      "success_rate": 0.175,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Geant2012",
+      "scenario": "correlated_failures",
+      "n": 40,
+      "success": 2,
+      "success_rate": 0.05,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Geant2012",
+      "scenario": "shifted_prior",
+      "n": 40,
+      "success": 32,
+      "success_rate": 0.8,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Arpanet19728",
+      "scenario": "baseline",
+      "n": 40,
+      "success": 6,
+      "success_rate": 0.15,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Arpanet19728",
+      "scenario": "no_adaptive_probes",
+      "n": 40,
+      "success": 6,
+      "success_rate": 0.15,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Arpanet19728",
+      "scenario": "no_post_repair_probes",
+      "n": 40,
+      "success": 6,
+      "success_rate": 0.15,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Arpanet19728",
+      "scenario": "no_decision_sufficiency",
+      "n": 40,
+      "success": 6,
+      "success_rate": 0.15,
+      "classification": "POLICY_ABLATION"
+    },
+    {
+      "topology": "Arpanet19728",
+      "scenario": "heterogeneous_costs",
+      "n": 40,
+      "success": 4,
+      "success_rate": 0.1,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Arpanet19728",
+      "scenario": "noisy_full_path",
+      "n": 40,
+      "success": 6,
+      "success_rate": 0.15,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Arpanet19728",
+      "scenario": "correlated_failures",
+      "n": 40,
+      "success": 2,
+      "success_rate": 0.05,
+      "classification": "MODEL_CHANGE"
+    },
+    {
+      "topology": "Arpanet19728",
+      "scenario": "shifted_prior",
+      "n": 40,
+      "success": 33,
+      "success_rate": 0.825,
+      "classification": "MODEL_CHANGE"
+    }
+  ],
+  "method": "20 deterministic fault-index schedules times two budgets; not iid; comparisons descriptive",
+  "noisy_probe_used": false,
+  "post_repair_probe_used": false
+}
