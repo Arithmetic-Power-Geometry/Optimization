@@ -1,0 +1,75 @@
+{
+  "schema": "e19-protocol-v1",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "simulator": "ns-3",
+  "required_version": "record exact release and git commit at execution; not installed",
+  "topology_sources": [
+    "extension/data/E15_clean/Abilene.edges.csv",
+    "extension/data/E15_clean/Geant2012.edges.csv",
+    "extension/data/E15_clean/Arpanet19728.edges.csv"
+  ],
+  "fault_provenance": "SYNTHETIC_INJECTED_FAILURES_ON_HISTORICAL_TOPOLOGIES",
+  "seeds": [
+    101,
+    211,
+    307,
+    401,
+    503,
+    601,
+    701,
+    809,
+    907,
+    1009,
+    1103,
+    1201,
+    1301,
+    1409,
+    1511,
+    1601,
+    1709,
+    1801,
+    1901,
+    2003
+  ],
+  "protocol": {
+    "routing": "propose GlobalRouting static baseline; specify separate dynamic routing protocol and convergence semantics before claiming convergence",
+    "traffic": "propose UDP constant-bit-rate endpoint flow; exact rate and payload must be frozen before execution",
+    "faults": "schedule one named edge down then optionally up at fixed simulation times; no hidden-state policy oracle",
+    "policies": [
+      "no_repair_control",
+      "fixed_order_repair",
+      "independent_repair_first"
+    ],
+    "budgets": {
+      "repair": [
+        0,
+        1,
+        2
+      ],
+      "probe": [
+        0,
+        1
+      ]
+    },
+    "fairness": "identical graph, traffic, failure, timing, seed, monitor rights and budget across comparators"
+  },
+  "outcomes": [
+    "sent_packets",
+    "received_packets",
+    "packet_loss_fraction",
+    "end_to_end_latency_ms",
+    "service_downtime_s",
+    "routing_convergence_s_if_supported"
+  ],
+  "execution": {
+    "runs": 0,
+    "packets": 0,
+    "measurements": [],
+    "traces": []
+  },
+  "limitations": [
+    "static global routing does not by itself establish dynamic convergence",
+    "software link toggles are not physical restoration",
+    "no real outage traces"
+  ]
+}
