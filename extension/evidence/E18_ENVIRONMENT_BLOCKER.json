@@ -1,0 +1,30 @@
+{
+  "schema": "e18-host-preflight-v1",
+  "date": "2026-10-21",
+  "status": "BLOCKED_MININET_UNAVAILABLE",
+  "execution": "ACTUAL_LOCAL_CONTAINER_INSPECTION",
+  "python": "3.13.5",
+  "kernel": "Linux 6.18.55 x86_64",
+  "euid": 0,
+  "commands": {
+    "mn": null,
+    "ovs-vsctl": null,
+    "ovs-ofctl": null,
+    "ip": "/usr/sbin/ip",
+    "ping": "/usr/bin/ping"
+  },
+  "mininet_python_installed": false,
+  "network_namespace_path_exists": true,
+  "github_dns": "BLOCKED: [Errno -3] Temporary failure in name resolution",
+  "e15_python_validator": "NOT_EXECUTED",
+  "e16_python_reproducer": "NOT_EXECUTED",
+  "e17_python_reproducer": "NOT_EXECUTED",
+  "mininet_run": "NOT_EXECUTED",
+  "ovs_dataplane": "NOT_AVAILABLE",
+  "measurements": [],
+  "limitations": [
+    "root uid does not imply kernel capabilities",
+    "preflight does not prove OVS functional",
+    "no live ping measurements"
+  ]
+}
