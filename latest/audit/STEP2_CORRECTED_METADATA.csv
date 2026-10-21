@@ -1,0 +1,9 @@
+registry_id,corrected_bibkey,authors,venue,year,primary_url,status,relevance
+"E009","Astorga2025","Astorga, Nicolás and Liu, Tennison and Xiao, Yuanzhang and Van Der Schaar, Mihaela","Proceedings of Machine Learning Research 267:1864--1886","2025","https://proceedings.mlr.press/v267/astorga25a.html","verified","peripheral"
+"E017","Smallwood1973","Smallwood, Richard D. and Sondik, Edward J.","Operations Research 21(5):1071--1088","1973","https://doi.org/10.1287/opre.21.5.1071","verified","core"
+"E040","Giannarakis2019","Giannarakis, Nick and Beckett, Ryan and Mahajan, Ratul and Walker, David","Computer Aided Verification, LNCS 11562:305--323","2019","https://doi.org/10.1007/978-3-030-25543-5_18","verified","contextual"
+"E059","Ma2015","Ma, Liang and He, Ting and Swami, Ananthram and Towsley, Don and Leung, Kin K.","Performance Evaluation 91:16--37","2015","https://doi.org/10.1016/j.peva.2015.06.003","verified","core"
+"E060","Ma2017","Ma, Liang and He, Ting and Swami, Ananthram and Towsley, Don and Leung, Kin K.","IEEE/ACM Transactions on Networking 25(1):434--450","2017","https://doi.org/10.1109/TNET.2016.2584544","verified","core"
+"E063","Ma2020TechnicalReport","Ma, Liang and He, Ting and Swami, Ananthram and Towsley, Don and Leung, Kin K.","arXiv:2012.09959 (companion technical report to Ma2017)","2020","https://arxiv.org/abs/2012.09959","version-linked","supplement"
+"EXTRA","Javdani2014","Javdani, Shervin and Chen, Yuxin and Karbasi, Amin and Krause, Andreas and Bagnell, Drew and Srinivasa, Siddhartha","PMLR 33:430--438","2014","https://proceedings.mlr.press/v33/javdani14.html","verified","core"
+"E065","Chen2017","Chen, Yuxin and Hassani, Hamed and Krause, Andreas","PMLR 54:223--231","2017","https://proceedings.mlr.press/v54/chen17b.html","verified","core"
