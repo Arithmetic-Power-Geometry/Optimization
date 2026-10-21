@@ -1,0 +1,34 @@
+% E21 ADDITIVE LATEX FRAGMENTS ONLY — not a substitute for original manuscript.
+% Intended for existing Section 9 (Research readiness and reproducible validation requirements).
+% Full revised main.tex and compiled PDF are in local user-downloadable E21 package.
+\subsection{Finite exact-small computational checks}
+The finite-state kernel and exact oracle were evaluated on 30 deterministic synthetic toy instances, yielding 180 policy-instance records. Four nonrandom order-based policies tied the exact oracle on these instances, whereas a seeded random comparator was suboptimal in three cases. This is negative evidence for a claimed improvement, not a general optimality result.
+
+\subsection{Historical topology structure with synthetic injected failures}
+The verified Internet Topology Zoo historical graphs Abilene (11 vertices, 14 edges), GEANT 2012 (40, 61), and ARPANET 1972 (29, 32) were used as topology structures, not as real failure traces. E16 recorded 720 deterministic fixed-route synthetic-failure policy episodes with six matched ordering comparators and two repair budgets. For a fixed route with $L$ edges, one uniformly distributed failed edge, no informative observation, and a predetermined set of $r$ distinct repaired edges, success is $\min(r,L)/L$; no order is superior in expectation. The restricted comparator is not the published hyperedge-cutting method \citep{Javdani2014}.
+
+\begin{table}[H]\centering\small
+\caption{Historical topology sizes and synthetic E16 episode counts.}\label{tab:e21-topologies}
+\begin{tabular}{lrrr}\toprule
+Topology & Vertices & Edges & E16 episodes\\\midrule
+Abilene & 11 & 14 & 240\\
+GEANT 2012 & 40 & 61 & 240\\
+ARPANET 1972 & 29 & 32 & 240\\\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Stress tests and the limits of inference}
+E17 recorded 960 deterministic synthetic-failure episodes. Heterogeneous costs and correlated failures reduced fixed-order restoration; an intentionally concentrated prior favored the first repaired edge. Probe ablations were no-ops and injected noise was not consumed by the policies, so these do not establish robustness.
+\begin{table}[H]\centering\small
+\caption{Synthetic E17 successes per 40 budget episodes per graph.}\label{tab:e21-stress}
+\begin{tabular}{lrrr}\toprule
+Condition & Abilene & GEANT 2012 & ARPANET 1972\\\midrule
+Baseline & 12 & 7 & 6\\
+Heterogeneous costs & 8 & 5 & 4\\
+Correlated failures & 4 & 2 & 2\\
+Shifted fault positions & 33 & 32 & 33\\\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Evidence freeze and independent replication scope}
+E20 independently recomputed arithmetic on 180 E14, 720 E16 and 960 E17 raw records without discrepancies. It did not rerun the E15--E17 Python reproduction scripts or independently regenerate the E16 bootstrap intervals. Mininet and ns-3 packet-level validation were unavailable. No novel approximation theorem, field-repair measurement or improvement over the published decision-region determination framework \citep{Javdani2014} is established.
